@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "types": ["bun"],
-  },
-  "exclude": ["node_modules"]
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  }
 }
